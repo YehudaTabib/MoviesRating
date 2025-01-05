@@ -1,0 +1,77 @@
+#main{
+    height: 1200px;
+    width: 1000px;
+    background-color: rgb(196, 202, 208);
+    position: relative;
+}
+#static{
+    height: 15%;
+}
+#staticMoovies{
+    height: 20%;
+    border-bottom: 1px black solid;
+}
+html, body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonsNav{
+    border: none;
+    background-color: lightskyblue;
+    height: 70px;
+    width: 170px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#divButtonsNav{
+   display: flex;
+   justify-content: space-around;
+   background-color: lightgreen;
+   height: 100px;
+   align-items: center;
+   
+}
+#title{
+    text-align: center;
+}
+.bottomPart{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonsMooviesNav{
+    height: 150px;
+    width: 150px;
+    border: none;
+    background: none;
+    overflow: hidden;
+    
+}
+#staticMoovies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#PicturesThreeBestMovies{
+    width: 100%;
+    height: 100%;
+    filter: brightness(60%);
+    display: block; 
+
+}
+.moovieName{
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    padding: 5px; 
+}
+#nav{
+    position: relative;
+    display: inline-block;
+}

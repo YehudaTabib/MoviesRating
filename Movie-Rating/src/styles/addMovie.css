@@ -1,0 +1,55 @@
+#AddMoviesPage{
+    height: 100%;
+    width: 100%;
+    border: none;
+    text-align: center;
+
+}
+#MovieDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputsAddMovie{
+    margin-bottom: 20px;
+}
+#movie-name{
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    border-width: 5px;
+    border-color: burlywood;
+    background-color: lightyellow;
+    font-weight: 900;
+}
+#movie-picture-url{
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    border-width: 5px;
+    border-color: burlywood;
+    background-color: lightyellow;
+    font-weight: 900;
+}
+#descprition{
+    height: 180px;
+    width: 350px;
+    text-align: center;
+    border-width: 5px;
+    border-color: burlywood;
+    background-color: lightyellow;
+    font-weight: 900;
+}
+#butAddMovie{
+    height: 80px;
+    width: 400px;
+    border-radius: 20px;
+    border: 5px rgb(175, 166, 152) solid;
+    background-color: lightyellow;
+    font-weight: 900;
+    font-size: 20px;
+}
+#titleCreate{
+    font-weight: bolder;
+    font-size: 60px;
+}
